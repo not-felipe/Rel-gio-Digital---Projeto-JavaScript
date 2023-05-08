@@ -1,11 +1,8 @@
 <h1>Relógio Digital ⌚</h1>
-###
-Relógio que atualiza dependendo da localização do usuário, juntamente com uma API de Previsão do Tempo
-###
-###
-Projeto feito com HTML, CSS e JavaScript para aprimoramento de habilidades e apreensão da utilização de API's
-###
-O projeto não é responsivo, uma vez que o foco era utilização de JavaScript
+
+<p>Relógio que atualiza dependendo da localização do usuário, juntamente com uma API de Previsão do Tempo</p>
+<p>Projeto feito com HTML, CSS e JavaScript para aprimoramento de habilidades e apreensão da utilização de API's</p>
+<p>O projeto não é responsivo, uma vez que o foco era utilização de JavaScript</p>
 
 <ul>
 <li>HTML ✔</li>
