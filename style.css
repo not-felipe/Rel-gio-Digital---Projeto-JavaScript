@@ -6,7 +6,6 @@
   padding: 0;
   border: 0;
   font-size: 100%;
-  color: #e2e2e2;
 }
 
 .conteudo {
@@ -17,7 +16,6 @@
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #0f0f0f;
 }
 
 #relogioData {
@@ -40,7 +38,7 @@
 }
 
 .doisPontos {
-  animation: piscar 1.2s infinite;
+  animation: piscar 1s infinite;
 }
 
 #relogioData #data {
@@ -60,4 +58,46 @@
 
 .city {
   margin-bottom: 8px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+#diaSemana {
+  font-size: 30px;
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 5px;
+}
+
+/* estilo do botão */
+button {
+  background-color: #333;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  margin: 15px 15px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* estilo do botão no hover */
+button:hover {
+  background-color: #555;
+}
+
+.is-light {
+  background-color: #f1f5f9;
+  color: #0f0f0f;
+  transition: all 0.3s ease;
+}
+
+.is-dark {
+  background-color: #0f0f0f;
+  color: #f1f5f9;
+  transition: all 0.3s ease;
 }

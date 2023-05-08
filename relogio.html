@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Relógio Digital</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="scripts.js" defer></script>
+    <script src="/scripts/scriptsClock.js" defer></script>
+    <script src="/scripts/scriptTheme.js" defer></script>
   </head>
   <body onload="moveRelogio()">
     <main>
-      <section class="conteudo">
+      <section class="conteudo is-dark">
+        <button id="switchBtn">💡</button>
         <div id="relogioData">
           <div class="horario">
             <span id="h"></span><span class="doisPontos">:</span><span id="m"></span><span class="doisPontos">:</span
             ><span id="s"></span>
           </div>
-          <div id="data">
+          <div class="data">
             <span id="diaSemana"></span>
             <span id="data"></span>
           </div>
