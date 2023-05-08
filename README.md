@@ -16,5 +16,5 @@
   </ul>
 </ul>
 
-Clique <a href="https://not-felipe.github.io/Relogio-Digital-JS/" target="_blank">aqui</a> para ser redirecionado ao projeto!
-<p style="color: red">ATENÇÃO! Para o funcionamento adequado, é necessário permitir acesso a localização do seu navegador</p>
+Clique <a href="https://not-felipe.github.io/Relogio-Digital-JS/">aqui</a> para ser redirecionado ao projeto!
+<p>ATENÇÃO! Para o funcionamento adequado, é necessário permitir acesso a localização do seu navegador</p>
