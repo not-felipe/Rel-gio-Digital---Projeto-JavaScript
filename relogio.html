@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relógio Digital</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body onload="moveRelogio()">
+    <main>
+      <section class="conteudo">
+        <div id="relogioData">
+          <div class="horario">
+            <span id="h"></span><span class="doisPontos">:</span><span id="m"></span><span class="doisPontos">:</span
+            ><span id="s"></span>
+          </div>
+          <div id="data">
+            <span id="diaSemana"></span>
+            <span id="data"></span>
+          </div>
+        </div>
+
+        <div class="dataTemp">
+          <p class="city"></p>
+          <div id="previsao">
+            <p id="clima">🌡<span id="temp"></span>°C 💧<span id="umidade"></span>%</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
