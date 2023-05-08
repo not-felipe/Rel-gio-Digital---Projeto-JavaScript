@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Relógio Digital</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="/scripts/scriptsClock.js" defer></script>
-    <script src="/scripts/scriptTheme.js" defer></script>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <script src="/assets/scripts/scriptsClock.js" defer></script>
+    <script src="/assets/scripts/scriptTheme.js" defer></script>
   </head>
   <body onload="moveRelogio()">
     <main>
@@ -15,7 +15,8 @@
         <button id="switchBtn">💡</button>
         <div id="relogioData">
           <div class="horario">
-            <span id="h"></span><span class="doisPontos">:</span><span id="m"></span><span class="doisPontos">:</span
+            <span id="h"></span><span class="doisPontos">:</span
+            ><span id="m"></span><span class="doisPontos">:</span
             ><span id="s"></span>
           </div>
           <div class="data">
@@ -27,7 +28,9 @@
         <div class="dataTemp">
           <p class="city"></p>
           <div id="previsao">
-            <p id="clima">🌡<span id="temp"></span>°C 💧<span id="umidade"></span>%</p>
+            <p id="clima">
+              🌡<span id="temp"></span>°C 💧<span id="umidade"></span>%
+            </p>
           </div>
         </div>
       </section>
