@@ -15,3 +15,6 @@
     <li>Botão SWITCH Dark Mode ✔</li>
   </ul>
 </ul>
+
+Clique <a href="https://not-felipe.github.io/Relogio-Digital-JS/">aqui</a> para ser redirecionado ao projeto!
+<p>ATENÇÃO! Para o funcionamento adequado, é necessário permitir acesso a localização do seu navegador</p>
