@@ -102,3 +102,27 @@ button:hover {
   color: #f1f5f9;
   transition: all 0.3s ease;
 }
+
+@media (max-width: 690px) {
+  * {
+    font-size: 90px;
+  }
+  .city,
+  #clima,
+  #temp,
+  #umidade {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  * {
+    font-size: 70px;
+  }
+  .city,
+  #clima,
+  #temp,
+  #umidade {
+    font-size: 15px;
+  }
+}
